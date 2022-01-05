@@ -1,5 +1,19 @@
+#navbar {
+  background-color: #52006A;
+  padding: 10px 0px;
+}
+
+main {
+  background-color: #FFCCD2;
+}
+
 .section-1 {
-  margin-top: 100px;
+  padding: 270px;
+  width: 100%;
+  height: 100%;
+}
+
+.section-5 {
   padding: 250px;
   width: 100%;
   height: 100%;
