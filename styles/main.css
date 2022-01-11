@@ -17,6 +17,183 @@ main {
   width: 100%;
   height: 100%;
 }
+
+/* Skill Logos */
+
+.asana {
+  background: url("/assets/asanareal-removebg-preview.png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bulma {
+  background: url("/assets/bulmareal-removebg-preview.png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cloudinary {
+  background: url("/assets/cloudinary-removebg-preview.png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.css3 {
+  background: url("/assets/css-removebg-preview\ \(2\).png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.devtools {
+  background: url("/assets/devtools-removebg-preview.png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.django {
+  background: url("/assets/djangoreal.png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.express {
+  background: url("/assets/express-removebg-preview.png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.figma {
+  background: url("/assets/figmareal-removebg-preview.png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.git {
+  background: url("/assets/git-removebg-preview.png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.github {
+  background: url("/assets/github-removebg-preview.png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.html5 {
+  background: url("/assets/html-removebg-preview.png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.insomnia {
+  background: url("/assets/imsomnia-removebg-preview.png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.jamboard {
+  background: url("/assets/jamboard-removebg-preview.png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.js {
+  background: url("/assets/js.png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.lucidchart {
+  background: url("/assets/lc-removebg-preview.png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.mapbox {
+  background: url("/assets/mb-removebg-preview.png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.mongo {
+  background: url("/assets/mongo-removebg-preview\ \(1\).png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.postgresql {
+  background: url("/assets/post-removebg-preview.png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.node {
+  background: url("/assets/node-removebg-preview.png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.python {
+  background: url("/assets/python-removebg-preview.png");
+  background-size: cover;
+  height: 72px;
+  background-position: center;
+}
+.react {
+  background: url("/assets/react-removebg-preview.png");
+  background-size: cover;
+  height: 72px;
+  background-position: center;
+}
+.semantic {
+  background: url("/assets/semantic.png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.tableplus {
+  background: url("/assets/tableplus-removebg-preview.png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.trello {
+  background: url("/assets/trello-removebg-preview.png");
+  background-size: cover;
+  height: 72px;
+  background-position: center;
+}
+
+.skill-headings {
+  margin: 10px;
+  text-align: center;
+}
+
 .section-3 {
   padding: 100px;
   width: 100%;
