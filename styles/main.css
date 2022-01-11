@@ -4,18 +4,39 @@
 }
 
 main {
-  background-color: #FFCCD2;
+  background-color: #52006A;
 }
+
+
 
 .section-1 {
   padding: 270px;
   width: 100%;
   height: 100%;
+  
+}
+
+#section-1-sub-wrapper {
+  background-color: #EDD2F3;
+  padding: 20px;
+  border-radius: 20px;
 }
 .section-2 {
   padding: 100px;
   width: 100%;
   height: 100%;
+}
+
+#skills-segment {
+  background-color: #EDD2F3;
+  text-align: center;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.skill-headings {
+  margin: 10px;
+  text-align: center;
 }
 
 /* Skill Logos */
@@ -189,15 +210,18 @@ main {
   background-position: center;
 }
 
-.skill-headings {
-  margin: 10px;
-  text-align: center;
-}
+
 
 .section-3 {
   padding: 100px;
   width: 100%;
   height: 100%;
+}
+
+#projects-segment, #experience-segment {
+  background-color: #EDD2F3;
+  border-radius: 10px;
+  margin: 5px;
 }
 
 .section-4 {
@@ -206,10 +230,18 @@ main {
   height: 100%;
 }
 
+
 .section-5 {
   padding: 200px;
   width: 100%;
   height: 100%;
+}
+
+#contact-segment {
+  background-color: #EDD2F3;
+  border-radius: 10px;
+  margin: 25px auto;
+}
 }
 
 /* .logo {
