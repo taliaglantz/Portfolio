@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Righteous&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Gloria+Hallelujah&family=Righteous&family=Yatra+One&display=swap');
 /* 
 font-family: 'Gloria Hallelujah', cursive;
 font-family: 'Righteous', cursive;
 font-family: 'Yatra One', cursive; 
+font-family: 'Cabin', sans-serif;
 */
 
 h1 {
@@ -19,6 +20,7 @@ h2 {
 
 h3, h4, h5, h6, p {
   color: #303030;
+  font-family: 'Cabin', sans-serif;
 }
 #navbar {
   background-color: #52006A;
@@ -29,6 +31,7 @@ h3, h4, h5, h6, p {
 
 main {
   background-color: #52006A;
+  
 }
 
 strong {
@@ -69,21 +72,21 @@ strong {
 /* Skill Logos */
 
 .asana {
-  background: url("/assets/asanareal-removebg-preview.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275875/Portfolio/untitled%20folder/asanareal-removebg-preview_baclis.png");
   background-size: contain;
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .bulma {
-  background: url("/assets/bulmareal-removebg-preview.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275875/Portfolio/untitled%20folder/bulmareal-removebg-preview_txguqi.png");
   background-size: contain;
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .cloudinary {
-  background: url("/assets/cloudinary-removebg-preview.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275874/Portfolio/untitled%20folder/cloudinary-removebg-preview_m7nouo.png");
   background-size: contain;
   height: 72px;
   background-position: center;
@@ -91,35 +94,35 @@ strong {
 
 }
 .css3 {
-  background: url("/assets/css-removebg-preview\ \(2\).png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275874/Portfolio/untitled%20folder/css-removebg-preview_2_wjzqwb.png");
   background-size: contain;
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .devtools {
-  background: url("/assets/devtools-removebg-preview.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275873/Portfolio/untitled%20folder/devtools-removebg-preview_l7sajv.png");
   background-size: contain;
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .django {
-  background: url("/assets/djangoreal.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275873/Portfolio/untitled%20folder/djangoreal_utuz9h.png");
   background-size: contain;
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .express {
-  background: url("/assets/express-removebg-preview.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275873/Portfolio/untitled%20folder/express-removebg-preview_dqaszz.png");
   background-size: contain;
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .figma {
-  background: url("/assets/figmareal-removebg-preview.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275873/Portfolio/untitled%20folder/figmareal-removebg-preview_wn3cnb.png");
   background-size: contain;
   height: 72px;
   background-position: center;
@@ -128,110 +131,110 @@ strong {
 }
 
 .git {
-  background: url("/assets/git-removebg-preview.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275872/Portfolio/untitled%20folder/git-removebg-preview_t7nhpy.png");
   background-size: contain;
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .github {
-  background: url("/assets/github-removebg-preview.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275872/Portfolio/untitled%20folder/github-removebg-preview_vhgnbd.png");
   background-size: contain;
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .html5 {
-  background: url("/assets/html-removebg-preview.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275874/Portfolio/untitled%20folder/html-removebg-preview_m0igd0.png");
   background-size: contain;
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .insomnia {
-  background: url("/assets/imsomnia-removebg-preview.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275872/Portfolio/untitled%20folder/imsomnia-removebg-preview_gyd0mx.png");
   background-size: contain;
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .jamboard {
-  background: url("/assets/jamboard-removebg-preview.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275873/Portfolio/untitled%20folder/jamboard-removebg-preview_lhezt4.png");
   background-size: contain;
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .js {
-  background: url("/assets/js.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275873/Portfolio/untitled%20folder/js_ukm67s.png");
   background-size: contain;
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .lucidchart {
-  background: url("/assets/lc-removebg-preview.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275874/Portfolio/untitled%20folder/lc-removebg-preview_tnyd6i.png");
   background-size: contain;
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .mapbox {
-  background: url("/assets/mb-removebg-preview.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275874/Portfolio/untitled%20folder/mb-removebg-preview_en0rqv.png");
   background-size: contain;
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .mongo {
-  background: url("/assets/mongo-removebg-preview\ \(1\).png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275874/Portfolio/untitled%20folder/mongo-removebg-preview_1_qnc2j7.png");
   background-size: contain;
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .postgresql {
-  background: url("/assets/post-removebg-preview.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275874/Portfolio/untitled%20folder/post-removebg-preview_oappti.png");
   background-size: contain;
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .node {
-  background: url("/assets/node-removebg-preview.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275875/Portfolio/untitled%20folder/node-removebg-preview_m0ihzk.png");
   background-size: contain;
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .python {
-  background: url("/assets/python-removebg-preview.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275875/Portfolio/untitled%20folder/python-removebg-preview_lphmj1.png");
   background-size: cover;
   height: 72px;
   background-position: center;
 }
 .react {
-  background: url("/assets/react-removebg-preview.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275872/Portfolio/untitled%20folder/react-removebg-preview_jra6fd.png");
   background-size: cover;
   height: 72px;
   background-position: center;
 }
 .semantic {
-  background: url("/assets/semantic.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275872/Portfolio/untitled%20folder/semantic_drk97z.png");
   background-size: contain;
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .tableplus {
-  background: url("/assets/tableplus-removebg-preview.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275875/Portfolio/untitled%20folder/tableplus-removebg-preview_syoqht.png");
   background-size: contain;
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .trello {
-  background: url("/assets/trello-removebg-preview.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275872/Portfolio/untitled%20folder/trello-removebg-preview_krqjxn.png");
   background-size: cover;
   height: 72px;
   background-position: center;
@@ -258,21 +261,21 @@ strong {
 }
 
 .ga {
-  background: url("/assets/ga-removebg-preview.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275874/Portfolio/untitled%20folder/ga-removebg-preview_w7egcr.png");
   background-size: contain;
   height: 50px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .ujia {
-  background: url("/assets/ujialogo.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275874/Portfolio/untitled%20folder/ujialogo_nzhv4j.png");
   background-size: contain;
   height: 50px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .rsy {
-  background: url("/assets/rsylogo-removebg-preview.png");
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275875/Portfolio/untitled%20folder/rsylogo-removebg-preview_ygds9q.png");
   background-size: contain;
   height: 50px;
   background-position: center;
