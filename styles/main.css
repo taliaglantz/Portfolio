@@ -8,13 +8,13 @@ font-family: 'Cabin', sans-serif;
 
 h1 {
   font-family: 'Righteous', cursive !important;
-  color: #B275BF !important;
+  color: #610072 !important;
   font-size: 50px !important;
 }
 
 h2 {
   font-family: 'Righteous', cursive !important;
-  color: #B275BF !important;
+  color: #610072 !important;
 }
 
 
@@ -35,7 +35,8 @@ main {
 }
 
 strong {
-  color: #B275BF !important;
+  color: #610072 !important;
+  font-weight: bolder;
 
 }
 
@@ -89,6 +90,7 @@ strong {
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 5px;
 }
 .cloudinary {
   background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275874/Portfolio/untitled%20folder/cloudinary-removebg-preview_m7nouo.png");
@@ -104,6 +106,7 @@ strong {
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 5px;
 }
 .devtools {
   background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275873/Portfolio/untitled%20folder/devtools-removebg-preview_l7sajv.png");
@@ -111,6 +114,7 @@ strong {
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 5px;
 }
 .django {
   background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275873/Portfolio/untitled%20folder/djangoreal_utuz9h.png");
@@ -141,6 +145,7 @@ strong {
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 5px;
 }
 .github {
   background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275872/Portfolio/untitled%20folder/github-removebg-preview_vhgnbd.png");
@@ -148,6 +153,7 @@ strong {
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 5px;
 }
 .html5 {
   background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275874/Portfolio/untitled%20folder/html-removebg-preview_m0igd0.png");
@@ -155,6 +161,7 @@ strong {
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 5px;
 }
 .insomnia {
   background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275872/Portfolio/untitled%20folder/imsomnia-removebg-preview_gyd0mx.png");
@@ -162,6 +169,7 @@ strong {
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 5px;
 }
 .jamboard {
   background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275873/Portfolio/untitled%20folder/jamboard-removebg-preview_lhezt4.png");
@@ -169,6 +177,7 @@ strong {
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 5px;
 }
 .js {
   background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275873/Portfolio/untitled%20folder/js_ukm67s.png");
@@ -176,6 +185,15 @@ strong {
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 5px;
+}
+.jest {
+  background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642675245/Portfolio/untitled%20folder/jest-removebg-preview_whghjq.png");
+  background-size: contain;
+  height: 72px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 5px;
 }
 .lucidchart {
   background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275874/Portfolio/untitled%20folder/lc-removebg-preview_tnyd6i.png");
@@ -190,6 +208,7 @@ strong {
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 5px;
 }
 .mongo {
   background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275874/Portfolio/untitled%20folder/mongo-removebg-preview_1_qnc2j7.png");
@@ -204,6 +223,7 @@ strong {
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 5px;
 }
 .node {
   background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275875/Portfolio/untitled%20folder/node-removebg-preview_m0ihzk.png");
@@ -230,6 +250,7 @@ strong {
   height: 72px;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 5px;
 }
 .tableplus {
   background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275875/Portfolio/untitled%20folder/tableplus-removebg-preview_syoqht.png");
@@ -243,6 +264,7 @@ strong {
   background-size: cover;
   height: 72px;
   background-position: center;
+  margin: 5px;
 }
 
 
@@ -259,11 +281,37 @@ strong {
   margin: 5px;
 }
 
+
 .section-4 {
   padding: 100px;
   width: 100%;
   height: 100%;
 }
+
+.projects-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 768px) {
+  .projects-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+
+.project-images {
+  border-radius: 10px;
+  width: 600px;
+  margin: 10px;
+}
+
+
+
+
 
 .ga {
   background: url("https://res.cloudinary.com/dwvbpmbul/image/upload/v1642275874/Portfolio/untitled%20folder/ga-removebg-preview_w7egcr.png");
@@ -304,6 +352,14 @@ a {
   text-decoration: none;
   color: black !important;
 }
+
+#link {
+  font-size: 38px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
 
 .email:hover {
   text-decoration: underline;
